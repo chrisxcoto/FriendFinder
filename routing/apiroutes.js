@@ -1,7 +1,7 @@
 // LOAD DATA
 // We are linking our routes to a series of "data" sources.
 
-var friendsArray = require("../app/data/friends");
+var friendsArray = require("../assets/javascript/friendly");
 
 // ROUTING
 module.exports = function(app) {
