@@ -47,7 +47,8 @@ module.exports = function(app) {
         bestFriendIndex = i;
         minimumDifference = totalDifference;
       }
-    }
+    };
+
 
     // after finding match, add user to friend array
     friendsArray.push(newFriend);
@@ -56,4 +57,7 @@ module.exports = function(app) {
     res.json(friendsArray[bestFriendIndex]); //where does this go too ?
   });
 };
+
+
+
 
